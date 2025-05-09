@@ -24,7 +24,7 @@ describe('Login Page', () => {
       cy.get('input[name="password"]').type('correctPassword');
       cy.get('button[type="submit"]').click();
     });
-//this is new!
+//this is new!!!!!!!!!
     it('should blablablaba', () => {
       cy.get('input[name="email"]').type('user@example.com');
       cy.get('input[name="password"]').type('correctPassword');
@@ -37,5 +37,5 @@ describe('Login Page', () => {
       cy.get('input[name="password"]').type('correctPassword');
       cy.get('button[type="submit"]').click();
     });
-    
+
 });
