@@ -4,13 +4,7 @@
 async function fetchWeather(city) {
     try {
       const apiKey = "FAKE_API_KEY";
-      const url = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}`;
-      const url2 = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}`;
-
-      const url3 = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}`;
-
-      const url4 = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}`;
-
+      const urlone = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}`;
   
       // Simulación de fetch!!!!
       console.log(`Llamando a: ${url}`);
@@ -21,7 +15,7 @@ async function fetchWeather(city) {
   
       return fakeResponse;
     } catch (error) {
-      console.error("Error al obtener el clima:", error);
+      console.error("Help al obtener el clima:", error);
     }
   }
   
