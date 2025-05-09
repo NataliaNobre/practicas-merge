@@ -31,7 +31,7 @@ describe('Login Page', () => {
       cy.get('button[type="submit"]').click();
     });
      
-    //im trying new things hahahha
+    //im tryiAAAAAAAA
     it('should redirect on successful login', () => {
       cy.get('input[name="email"]').type('user@example.com');
       cy.get('input[name="password"]').type('correctPassword');
