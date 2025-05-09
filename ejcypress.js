@@ -31,11 +31,18 @@ describe('Login Page', () => {
       cy.get('button[type="submit"]').click();
     });
      
-    //im trying new things hahahha
+//im trying new things hahahha
     it('should redirect on successful login', () => {
       cy.get('input[name="email"]').type('user@example.com');
       cy.get('input[name="password"]').type('correctPassword');
       cy.get('button[type="submit"]').click();
     });
+
+//this is a new it in the code!
+it('should redirect on successful login', () => {
+  cy.get('input[name="email"]').type('user@example.com');
+  cy.get('input[name="password"]').type('correctPassword');
+  cy.get('button[type="submit"]').click();
+});
 
 });
