@@ -5,8 +5,14 @@ async function fetchWeather(city) {
     try {
       const apiKey = "FAKE_API_KEY";
       const url = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}`;
+      const url2 = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}`;
+
+      const url3 = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}`;
+
+      const url4 = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}`;
+
   
-      // Simulación de fetch
+      // Simulación de fetch!!!!
       console.log(`Llamando a: ${url}`);
       const fakeResponse = {
         location: { name: city },
