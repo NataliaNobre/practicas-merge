@@ -20,7 +20,7 @@ describe('Login Page', () => {
     });
   
     it('should redirect on successful login', () => {
-      cy.get('input[name="email"]').type('user@example.com');
+      cy.get('input[name="email"]').type('user@example.com'); // to be reviewed!
       cy.get('input[name="password"]').type('correctPassword');
       cy.get('button[type="submit"]').click();
     });
